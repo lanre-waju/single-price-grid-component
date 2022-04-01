@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #428992;
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+}
+
+.info {
+    height: 40vh;
+    padding: 80px;
+    background-color: #fff;
+}
+
+.info p {
+    font-size: 1rem;
+    color: #818181;
+    margin-top: 20px;
+}
+
+.sub-info {
+    color: #cfde7a;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #49bebd;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+div.subscription {
+    background-color: #2bb4b1;
+    color: #fff;
+    padding: 80px;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.subscription h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1rem;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+small {
+    margin-left: 10px;
+}
+
+.access {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #cfde7a;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ebeede;
+    padding: 10px 2px;
+    width: 50%;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-top: 50px;
+}
+
+div.activities {
+    background-color: #49bebd;
+    color: #fff;
+    padding: 80px;
+}
+
+.activities h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+.price-grid {
+    display: flex;
+    height: 60vh;
+}
+
+.price-grid>div {
+    flex: 1;
+}
+
+
+/* @media screen and (max-width: 600px) {
+  .price-grid {
+      flex-direction: column;
+  }
+} */
